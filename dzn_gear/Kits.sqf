@@ -125,8 +125,8 @@ kit_hvt = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_ak105_zenitco01_b33_grip1","rhs_30Rnd_545x39_AK",["rhs_acc_ak5","rhs_acc_perst3_top_h","CUP_optic_CompM4","rhs_acc_grip_rk6"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
-	["<UNIFORM ITEMS >> ", [["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",9]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
@@ -136,9 +136,9 @@ kit_rf_r = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_ak105_zenitco01_b33_grip1","rhs_30Rnd_545x39_AK",["rhs_acc_ak5","rhs_acc_perst3_2dp_light_h","CUP_optic_CompM4","rhs_acc_grip_rk6"]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_rshg2","rhs_rshg2_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
-	["<UNIFORM ITEMS >> ", [["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
-	["<VEST ITEMS >> ",[["SECONDARY MAG",1]]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",9]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
@@ -147,8 +147,8 @@ kit_rf_ar = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_pkp","rhs_100Rnd_762x54mmR",["","","rhs_acc_1p63",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
-	["<UNIFORM ITEMS >> ", [["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",2],["rhs_mag_rdg2_black",1]]],
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",2]]]
 ];
@@ -158,8 +158,8 @@ kit_rf_gr = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_ak103_gp25_npz","rhs_30Rnd_762x39mm",["rhs_acc_ak5","","CUP_optic_CompM4",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
-	["<UNIFORM ITEMS >> ", [["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",2],["rhs_mag_rdg2_black",1],["PRIMARY MAG",5],["rhs_VOG25",9]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
