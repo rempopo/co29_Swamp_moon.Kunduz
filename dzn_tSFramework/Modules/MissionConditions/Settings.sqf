@@ -40,5 +40,41 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
 // If you're Lim~, then you may need this. Uncomment to use.
 // if (isNil "ts_tasks") then { ts_tasks = 0 };
 
-MissionCondition1 = [ "WIN", "false", "All objectives done" ];
-MissionCondition2 = [ "WIPED", "{alive _x} count (call BIS_fnc_listPlayers) < 1", "All dead", 30 ];
+MissionCondition1 = ["PERFECT", 
+		"(tgt_hvt inArea baseTrg) 
+		&& (!alive tgt_cache0) 
+		&& ((!alive tgt_cache1) OR (!alive tgt_cache2)) 
+		&& (!alive blow2) && (!alive tgt_uav)", 
+	"Excellent" , 40 
+];
+
+MissionCondition2 = ["BASE_", 
+		"(tgt_hvt inArea baseTrg)
+		&& (!alive tgt_cache0) && ((!alive tgt_cache1) OR (!alive tgt_cache2)) 
+		&& {call fnc_CheckPlayersReturned}", 
+	"UAV Ignored", 35 
+];
+
+MissionCondition3 = ["BASIC", 
+		"(!alive tgt_cache0) 
+		&& (!alive blow2) && (!alive tgt_uav) 
+		&& {call fnc_CheckPlayersReturned}", 
+	"Cache not found" , 30 
+];
+
+MissionCondition4 = ["INCOMPLETE", 
+		"(!alive tgt_cache0) 
+		&& (!alive blow2) 
+		&& {call fnc_CheckPlayersReturned}", 
+	"Cache not found && UAV not Destr" , 25 
+];
+MissionCondition5 = ["ALMOST", 
+		"(!alive tgt_cache0) 
+		&& {call fnc_CheckPlayersReturned} ", 
+	"Cache not found && UAV Ignored" , 20 
+];
+
+MissionCondition6 = [ "WIPED", 
+		"{alive _x} count (call BIS_fnc_listPlayers) < 1", 
+	"All dead", 15 
+];

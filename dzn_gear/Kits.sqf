@@ -125,7 +125,7 @@ kit_hvt = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_ak105_zenitco01_b33_grip1","rhs_30Rnd_545x39_AK",["rhs_acc_ak5","rhs_acc_perst3_top_h","CUP_optic_CompM4","rhs_acc_grip_rk6"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<ASSIGNED ITEMS >>  ","Binocular"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",9]]],
 	["<BACKPACK ITEMS >> ",[]]
