@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=46;
+		nextID=62;
 	};
 	class Camera
 	{
-		pos[]={1410.7899,62.023804,401.9574};
-		dir[]={-0.4285126,-0.71080935,0.55784881};
-		up[]={-0.43300116,0.70339733,0.56369215};
-		aside[]={0.79306418,-1.2547825e-006,0.60919821};
+		pos[]={1186.4203,232.86111,2638.1208};
+		dir[]={0.83956701,-0.54337955,0.0022383605};
+		up[]={0.54342258,0.83945781,0.0014501782};
+		aside[]={0.0026685183,-5.6209399e-007,-1.0000641};
 	};
 };
 binarizationWanted=0;
@@ -2505,7 +2505,7 @@ class Mission
 		class Item20
 		{
 			dataType="Trigger";
-			position[]={2523.6604,38.04966,103.57544};
+			position[]={2523.6599,38.04966,103.575};
 			class Attributes
 			{
 				text="reveal it";
@@ -2630,13 +2630,6 @@ class Mission
 			};
 			side="Empty";
 			flags=4;
-			randomStartPositions[]=
-			{
-				"uav_1",
-				"uav_2",
-				"uav_3",
-				"uav_4"
-			};
 			class Attributes
 			{
 				name="tgt_uav";
@@ -2761,11 +2754,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=77;
+			nextID=73;
 		};
 		class Links
 		{
-			items=77;
+			items=73;
 			class Item0
 			{
 				linkID=0;
@@ -3479,46 +3472,6 @@ class Mission
 			class Item71
 			{
 				linkID=71;
-				item0=170;
-				item1=154;
-				class CustomData
-				{
-					type="RandomStart";
-				};
-			};
-			class Item72
-			{
-				linkID=72;
-				item0=171;
-				item1=154;
-				class CustomData
-				{
-					type="RandomStart";
-				};
-			};
-			class Item73
-			{
-				linkID=73;
-				item0=172;
-				item1=154;
-				class CustomData
-				{
-					type="RandomStart";
-				};
-			};
-			class Item74
-			{
-				linkID=74;
-				item0=173;
-				item1=154;
-				class CustomData
-				{
-					type="RandomStart";
-				};
-			};
-			class Item75
-			{
-				linkID=75;
 				item0=175;
 				item1=158;
 				class CustomData
@@ -3526,9 +3479,9 @@ class Mission
 					type="Sync";
 				};
 			};
-			class Item76
+			class Item72
 			{
-				linkID=76;
+				linkID=72;
 				item0=175;
 				item1=176;
 				class CustomData

@@ -15,15 +15,39 @@ publicVariable "MissionDate";
 /*
  * Date
  */
-setDate MissionDate;
+	setDate MissionDate;
 
 /*
  *	Weather
  */
-if (!isNil "dzn_fnc_setWeather") then {
-	  ("par_weather" call BIS_fnc_getParamValue) spawn dzn_fnc_setWeather;
-};
+	if (!isNil "dzn_fnc_setWeather") then {
+		  ("par_weather" call BIS_fnc_getParamValue) spawn dzn_fnc_setWeather;
+	};
 
-"mk1" setMarkerAlpha 0;
-"mk2" setMarkerAlpha 0;
-"area" setmarkerpos [(getpos tgt_uav select 0)-(random 300)+(random 300),(getpos tgt_uav select 1)-(random 300)+(random 300),(getpos tgt_uav select 2)];
+// Select Random position for UAV
+	rnd_uav = selectRandom [1,2,3,4];
+
+	if (rnd_uav == 1) then {
+		tgt_uav setpos (getmarkerpos "uav_1");
+		ins1 call dzn_fnc_dynai_activateZone;
+	};
+
+	if (rnd_uav == 2) then {
+		tgt_uav setpos (getMarkerPos "uav_2");
+		ins2 call dzn_fnc_dynai_activateZone;
+	};
+
+	if (rnd_uav == 3) then {
+		tgt_uav setpos (getmarkerpos "uav_3");
+		ins3 call dzn_fnc_dynai_activateZone;
+	};
+
+	if (rnd_uav == 4) then {
+		tgt_uav setpos (getmarkerpos "uav_4");
+		ins4 call dzn_fnc_dynai_activateZone;
+	};
+
+// Markers
+	"mk1" setMarkerAlpha 0;
+	"mk2" setMarkerAlpha 0;
+	"area" setmarkerpos [(getpos tgt_uav select 0)-(random 400)+(random 400),(getpos tgt_uav select 1)-(random 400)+(random 400),(getpos tgt_uav select 2)];
