@@ -31,13 +31,6 @@
 /*
  *	US Green
  */
-
-kit_ussf_random = [
-	"kit_ussf_ftl"
-	,"kit_ussf_ar"
-	,"kit_ussf_gr","kit_ussf_gr"
-	,"kit_ussf_r","kit_ussf_r"	
-];
  
 kit_ussf_pl =
 	[
@@ -45,7 +38,7 @@ kit_ussf_pl =
 	["<PRIMARY WEAPON >>  ","rhsusf_weap_MP7A2_desert_grip3","rhsusf_mag_40Rnd_46x30_FMJ",["","rhsusf_acc_anpeq15A","CUP_optic_MRad","rhsusf_acc_grip3"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "ACE_Vector"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["rhs_mag_an_m8hc",1],["SmokeShellRed",1],["SmokeShellPurple",1],["PRIMARY MAG",10]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -57,7 +50,7 @@ kit_ussf_sl =
 	["<PRIMARY WEAPON >>  ","rhs_weap_mk18_grip_KAC_wd","30Rnd_556x45_Stanag",["rhsusf_acc_rotex5_grey","rhsusf_acc_anpeq15A","rhsusf_acc_SpecterDR_OD","rhsusf_acc_grip3"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "ACE_Vector"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["PRIMARY MAG",8],["30Rnd_556x45_Stanag_Tracer_Red",2],["rhs_mag_an_m8hc",1],["SmokeShellRed",1],["SmokeShellPurple",1]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -65,11 +58,11 @@ kit_ussf_sl =
 
 kit_ussf_ftl =
 	[
-	["<EQUIPEMENT >>  ","rhs_uniform_g3_m81","rhsusf_spc_patchless_radio","","rhsusf_opscore_rg_cover_pelt","rhs_balaclava"],
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_m81","rhsusf_spc_patchless_radio","B_AssaultPack_khk","rhsusf_opscore_rg_cover_pelt","rhs_balaclava"],
 	["<PRIMARY WEAPON >>  ","rhs_weap_mk18_grip_KAC_wd","30Rnd_556x45_Stanag",["rhsusf_acc_rotex5_grey","rhsusf_acc_anpeq15A","rhsusf_acc_SpecterDR_OD","rhsusf_acc_grip3"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "ACE_Vector"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["PRIMARY MAG",8],["30Rnd_556x45_Stanag_Tracer_Red",2],["rhs_mag_an_m8hc",1],["SmokeShellRed",1],["SmokeShellPurple",1]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -81,7 +74,7 @@ kit_ussf_ar =
 	["<PRIMARY WEAPON >>  ","rhs_weap_m249_pip_S_vfg2","rhs_200rnd_556x45_M_SAW",["","rhsusf_acc_anpeq15A","rhsusf_acc_SpecterDR_A","rhsusf_acc_grip4"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "ACE_Vector"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["rhs_mag_an_m8hc",1],["HandGrenade",2],["PRIMARY MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",1]]]
@@ -89,11 +82,11 @@ kit_ussf_ar =
 
 kit_ussf_gr =
 	[
-	["<EQUIPEMENT >>  ","rhs_uniform_g3_m81","rhsusf_spc_patchless_radio","","rhsusf_opscore_rg_cover_pelt","rhs_balaclava"],
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_m81","rhsusf_spc_patchless_radio","B_AssaultPack_khk","rhsusf_opscore_rg_cover_pelt","rhs_balaclava"],
 	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_blockII_M203_wd","30Rnd_556x45_Stanag",["","rhsusf_acc_anpeq15A",["CUP_optic_CompM4","rhsusf_acc_eotech_xps3"],""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "ACE_Vector"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["HandGrenade",2],["PRIMARY MAG",8],["rhs_mag_M433_HEDP",10]]],
 	["<BACKPACK ITEMS >> ",[]]
@@ -105,10 +98,17 @@ kit_ussf_r =
 	["<PRIMARY WEAPON >>  ","rhs_weap_mk18_grip_KAC_wd","30Rnd_556x45_Stanag",["","rhsusf_acc_anpeq15A",["CUP_optic_CompM4","rhsusf_acc_eotech_xps3"],"rhsusf_acc_grip3"]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","rhs_m72a7_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "Binocular"],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS, "ACE_Vector"],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS, ["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["PRIMARY MAG",10],["rhs_mag_an_m8hc",1],["HandGrenade",2]]],
 	["<BACKPACK ITEMS >> ",[["rhs_200rnd_556x45_M_SAW",3]]]
+];
+
+kit_ussf_cargo = [
+	[["rhs_weap_m72a7",5]],
+	[["rhs_200rnd_556x45_M_SAW",20],["30Rnd_556x45_Stanag",50],["rhs_mag_M433_HEDP",30],["HandGrenade",10],["SatchelCharge_Remote_Mag",6]],
+	[["ACE_fieldDressing",20],["ACE_packingBandage",20],["ACE_elasticBandage",20],["ACE_tourniquet",5],["ACE_morphine",5],["ACE_epinephrine",5],["ACE_quikclot",10],["ACE_Clacker",4]],
+	[]
 ];
 
 
