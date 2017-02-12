@@ -1,0 +1,12 @@
+"####### tSF File Sweeper Engaged #######" 
+Mission directory:     C:\Users\lim\Documents\Arma 3 - Other Profiles\lim-\mpmissions\co29_Swamp_moon.Kunduz\ 
+Mission fodler name:   co29_Swamp_moon 
+Removing tSF Helpers 
+Removing DynAI Helpers 
+Removing unused tSF Modules 
+    Folder is not used: Removing AirborneSupport 
+    Folder is not used: Removing Interactives 
+    Folder is not used: Removing InteractivesACE 
+    Folder is not used: Removing EditorVehicleCrew 
+    Folder is not used: Removing EditorRadioSettings 
+Done! 
