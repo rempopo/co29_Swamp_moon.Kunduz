@@ -163,3 +163,91 @@ kit_rf_gr = [
 	["<VEST ITEMS >> ",[["rhs_mag_rgd5",2],["rhs_mag_rdg2_black",1],["PRIMARY MAG",5],["rhs_VOG25",9]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
+
+
+// Mujahedeen
+//CUP_I_Datsun_PK_TK_Random
+
+#define INS_UNI ["CUP_O_TKI_Khet_Partug_04","CUP_O_TKI_Khet_Partug_02","CUP_O_TKI_Khet_Partug_01","CUP_O_TKI_Khet_Partug_05"]
+#define INS_HEAD ["CUP_H_TKI_Pakol_1_01","CUP_H_TKI_Pakol_2_06","CUP_H_TKI_Pakol_1_06","CUP_H_TKI_SkullCap_03","CUP_H_TKI_Lungee_05","CUP_H_TKI_Lungee_02"]
+#define INS_VEST ["CUP_V_OI_TKI_Jacket4_04","CUP_V_OI_TKI_Jacket4_05","CUP_V_OI_TKI_Jacket2_04","CUP_V_OI_TKI_Jacket2_05","CUP_V_O_Ins_Carrier_Rig"]
+#define INS_WEP ["rhs_weap_akm","rhs_weap_akms","rhs_weap_aks74","CUP_srifle_LeeEnfield"]
+#define INS_MAG ["rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_545x39_AK","CUP_10x_303_M"]
+#define INS_GP ["rhs_weap_akm_gp25","rhs_weap_akms_gp25","rhs_weap_aks74_gp25"]
+#define INS_GP_MAG ["rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_545x39_AK"]
+
+kit_ins_random = [
+	"kit_ins_fighter"
+	,"kit_ins_gr"
+	,"kit_ins_at"
+	,"kit_ins_mg"
+	,"kit_ins_mm"
+	,"kit_ins_rat"
+];
+
+kit_ins_fighter =
+	[
+	["<EQUIPEMENT >>  ",INS_UNI,INS_VEST,"",INS_HEAD,""],
+	["<PRIMARY WEAPON >>  ",INS_WEP,INS_MAG,["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",10]]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",5]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+kit_ins_gr =
+	[
+	["<EQUIPEMENT >>  ",INS_UNI,INS_VEST,"",INS_HEAD,""],
+	["<PRIMARY WEAPON >>  ",INS_GP ,INS_GP_MAG,["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",10]]],
+	["<VEST ITEMS >> ",[["rhs_VOG25",10],["PRIMARY MAG",7]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+kit_ins_at =
+	[
+	["<EQUIPEMENT >>  ",INS_UNI,INS_VEST,"CUP_B_AlicePack_Khaki",INS_HEAD,""],
+	["<PRIMARY WEAPON >>  ",INS_WEP,INS_MAG,["","","",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_rpg7","rhs_rpg7_PG7V_mag",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
+	["<UNIFORM ITEMS >> ",[["PRIMARY MAG",3]]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",5]]],
+	["<BACKPACK ITEMS >> ",[["SECONDARY MAG",4],["rhs_rpg7_type69_airburst_mag",4]]]
+];
+kit_ins_mg =
+	[
+	["<EQUIPEMENT >>  ",INS_UNI,INS_VEST,"CUP_B_AlicePack_Khaki",INS_HEAD,""],
+	["<PRIMARY WEAPON >>  ","rhs_weap_pkm","rhs_100Rnd_762x54mmR",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",10]]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",2]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+kit_ins_mm =
+	[
+	["<EQUIPEMENT >>  ",INS_UNI,INS_VEST,"",INS_HEAD,""],
+	["<PRIMARY WEAPON >>  ","CUP_srifle_SVD","CUP_10Rnd_762x54_SVD_M",["","","CUP_optic_PSO_1",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",10]]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",5]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+kit_ins_rat =
+	[
+	["<EQUIPEMENT >>  ",INS_UNI,INS_VEST,"",INS_HEAD,""],
+	["<PRIMARY WEAPON >>  ",INS_WEP,INS_MAG,["","","",""]],
+	["<LAUNCHER WEAPON >>  ","CUP_launch_RPG18","CUP_RPG18_M",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",10]]],
+	["<VEST ITEMS >> ",[["PRIMARY MAG",5]]],
+	["<BACKPACK ITEMS >> ",[]]
+];

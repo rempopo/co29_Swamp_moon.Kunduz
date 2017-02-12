@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=335;
+		nextID=340;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1451.7964,148.56364,277.1282};
-		dir[]={-0.26239952,-0.74176157,0.61739278};
-		up[]={-0.29013497,0.67064339,0.68265885};
-		aside[]={0.92043597,4.4920525e-006,0.3911882};
+		pos[]={2065.5396,58.274078,3039.9473};
+		dir[]={0.16448966,-0.46556136,0.8696388};
+		up[]={0.086532034,0.88499391,0.45749134};
+		aside[]={0.98262042,-5.3958502e-008,-0.18586108};
 	};
 };
 binarizationWanted=0;
@@ -307,7 +307,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=106;
+		items=110;
 		class Item0
 		{
 			dataType="Group";
@@ -2703,29 +2703,29 @@ class Mission
 		class Item25
 		{
 			dataType="Marker";
-			position[]={2238.9307,6.2297277,1424.4351};
+			position[]={467.39572,19.101828,1880.2686};
 			name="uav_1";
 			type="Empty";
 			id=170;
-			atlOffset=1.7856336;
+			atlOffset=1.7856236;
 		};
 		class Item26
 		{
 			dataType="Marker";
-			position[]={463.89432,18.433247,1913.3386};
+			position[]={605.08148,24.324982,3646.1992};
 			name="uav_2";
 			type="Empty";
 			id=171;
-			atlOffset=1.1113644;
+			atlOffset=13.134259;
 		};
 		class Item27
 		{
 			dataType="Marker";
-			position[]={603.43787,8.5678711,3619.5608};
+			position[]={2193.1619,8.5678711,1433.9119};
 			name="uav_3";
 			type="Empty";
 			id=172;
-			atlOffset=-4.9972095;
+			atlOffset=4.3655286;
 		};
 		class Item28
 		{
@@ -3002,7 +3002,7 @@ class Mission
 			fillName="SolidFull";
 			a=40;
 			b=8;
-			angle=55.498604;
+			angle=55.498589;
 			id=212;
 		};
 		class Item43
@@ -3015,7 +3015,7 @@ class Mission
 			fillName="SolidFull";
 			a=40;
 			b=8;
-			angle=53.497971;
+			angle=53.497955;
 			id=213;
 			atlOffset=4.2417469;
 		};
@@ -5007,6 +5007,69 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item106
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2112.562,57.929726,3085.3579};
+				angles[]={0,0,6.2822089};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=336;
+			type="Land_Camping_Light_F";
+			atlOffset=0.45488358;
+		};
+		class Item107
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2052.4927,58.024258,3093.0239};
+				angles[]={0,0,6.282495};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=337;
+			type="Land_Camping_Light_F";
+			atlOffset=0.45491028;
+		};
+		class Item108
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2041.196,57.439213,3022.7588};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=338;
+			type="Land_Camping_Light_F";
+		};
+		class Item109
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2103.2715,57.175468,3015.0354};
+				angles[]={0,0,6.2826972};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=339;
+			type="Land_Camping_Light_F";
+			atlOffset=0.4549408;
 		};
 	};
 	class Connections
